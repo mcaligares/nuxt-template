@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import useAppFooter from './appFooter';
+  import useAppFooter from './useHook';
 
   const { items, copyright } = useAppFooter();
 </script>
@@ -47,3 +47,4 @@
     }
   }
 </style>
+./useHook

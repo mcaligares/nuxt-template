@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import useAppHeader from './appHeader';
+  import useAppHeader from './useHook';
 
   const { title, menu } = useAppHeader();
 </script>
@@ -33,4 +33,4 @@
     }
   }
 </style>
-./appHeader
+./appHeader ./useHook

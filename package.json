@@ -11,7 +11,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "prepare": "husky",
-    "test": "vitest --config ./__tests__/vitest.config.ts"
+    "test": "vitest run --config ./__tests__/vitest.config.ts",
+    "test-e2e": "npm test -- --dir ./__tests__/e2e",
+    "test-unit": "npm test -- --dir ./__tests__/unit"
   },
   "dependencies": {
     "nuxt": "^3.10.3",

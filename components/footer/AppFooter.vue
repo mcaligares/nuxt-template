@@ -11,7 +11,8 @@
     </p>
     <div class="app-footer__contact">
       <a
-        v-for="item of items"
+        v-for="(item, index) of items"
+        :key="index"
         :href="item.link"
         target="_blank"
         class="p-button p-button-text app-footer-link"
@@ -19,7 +20,7 @@
         <i
           class="app-footer-link__icon pi"
           :class="item.icon"
-        />
+        ></i>
       </a>
     </div>
   </footer>

@@ -1,7 +1,7 @@
 // @vitest-environment nuxt
-import { describe, expect, test } from 'vitest'
-import { mountSuspended } from '@nuxt/test-utils/runtime'
-import AppHero from '~/components/AppHero.vue'
+import { describe, expect, test } from 'vitest';
+import { mountSuspended } from '@nuxt/test-utils/runtime';
+import AppHero from '~/components/AppHero.vue';
 
 describe('test AppHero component', async () => {
   test('AppHero property', async () => {
@@ -10,6 +10,5 @@ describe('test AppHero component', async () => {
     const component = await mountSuspended(AppHero, props);
 
     expect(component.text()).toEqual(title);
-  })
-})
-
+  });
+});

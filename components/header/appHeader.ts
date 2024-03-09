@@ -1,4 +1,4 @@
-import { appConfig } from "~/config/app";
+import { appConfig } from '~/config/app';
 
 export default function useAppHeader() {
   const router = useRouter();
@@ -12,6 +12,6 @@ export default function useAppHeader() {
       command: () => {
         router.push(item.link);
       }
-    })),
-  }
+    }))
+  };
 }

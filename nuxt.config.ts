@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   modules: [
-    'nuxt-primevue'
+    'nuxt-primevue',
+    '@nuxt/test-utils/module'
   ],
   typescript: {
     typeCheck: false

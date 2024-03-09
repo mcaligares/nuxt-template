@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const title = 'Welcome to the home page';
+  const title = 'Welcome to the feature page';
 </script>
 
 <template>
